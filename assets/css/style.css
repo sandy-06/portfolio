@@ -2,7 +2,7 @@
 
 
   :root {
-    --primary-color: #fce138;
+    --primary-color: #bdddf3;
     --secondary-color: #02121b;
     --tertiary-color: #0d1718;
   }
@@ -31,7 +31,7 @@ header {
   background-size: cover;
   height: 600px;
   background-position: 100%;
-  background-image: url("./images/header-photo1.jpg");
+ /* background-image: url("./images/header-photo1.jpg");*/
   
 }
 
@@ -40,7 +40,7 @@ header h1 {
   font-weight: bold;
   margin: 0;
   font-size: 36px;
-  color: var(--primary-color);
+  color: yellow;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -94,7 +94,7 @@ footer h2 {
   margin: 0;
 }
 
-footer div {
+#contact footer div {
   line-height: 1.5;
   text-align: right;
 }
@@ -110,7 +110,7 @@ section {
 }
 
 /* HERO STYLES START */
-.hero {
+/*.hero {
   background-image: url("./images/header-photo1.jpg");
   background-size: cover;
   display: flex;
@@ -119,7 +119,7 @@ section {
   align-items: flex-start;
   background-attachment: fixed;
   background-position: 80%;
-}
+}*/
 
 .hero-cta {
   width: 35%;
@@ -309,14 +309,7 @@ section {
   width: 100%;
 }
 
-.trainer-bio {
-  padding: 25px;
-  line-height: 1.3;
-}
 
-.trainer-bio h3 {
-  font-size: 28px;
-}
 
 .trainer-bio h4 {
   font-weight: lighter;
