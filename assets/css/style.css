@@ -24,24 +24,7 @@ header
 
 
 
-.hero  h1 {
-  justify-content: center;
-  font-weight: bold;
-  margin: 0;
-  font-size: 36px;
-  color: yellow;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-#cat {
-  display:flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#cat div {
-  width: 100%;
-}
+.
 header nav {
   margin: 7px 0;
 }
@@ -106,7 +89,24 @@ div {
   background-color: aliceblue;
 }
 
+hero  h1 {
+  justify-content: center;
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: rgb(17, 17, 16);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
+#cat {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cat div {
+  width: 100%;
+}
 /* HERO STYLES END */
 
 
