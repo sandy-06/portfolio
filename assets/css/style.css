@@ -3,8 +3,8 @@
 
   :root {
     --primary-color: #fce138;
-    --secondary-color: #024e76;
-    --tertiary-color: #39a6b2;
+    --secondary-color: #02121b;
+    --tertiary-color: #0d1718;
   }
  * {
    box-sizing: border-box;
@@ -21,23 +21,22 @@ body {
 /* HEADER / NAV BAR STYLES START */
 
 header {
-  padding: 20px 35px;
-  background-color:var(--tertiary-color);
+
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   flex-wrap: wrap;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
   background-size: cover;
-  background-attachment: fixed;
-  background-position: 80%;
+  height: 600px;
+  background-position: 100%;
   background-image: url("./images/header-photo1.jpg");
-  background-size: 100% 400px ;
-
+  
 }
 
 header h1 {
+  justify-content: center;
   font-weight: bold;
   margin: 0;
   font-size: 36px;
@@ -45,11 +44,15 @@ header h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-header a {
-  text-decoration: none;
-  color: var(--primary-color)8;
+#cat {
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
+#cat div {
+  width: 100%;
+}
 header nav {
   margin: 7px 0;
 }
@@ -57,24 +60,19 @@ header nav {
 header nav ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: right;
   list-style: none;
 }
 
-header nav ul li a {
+header nav ul li {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-header nav ul li a:hover {
-  background: var(--primary-color)8;
-  color: var(--secondary-color)6;
-  border-radius: 15px;
-  text-shadow: none;
-}
+
 
 /* HEADER / NAVBAR STYLES END */
 
@@ -193,52 +191,10 @@ section {
 } 
 
 
-.checkbox-wrapper label::before,
-.radio-wrapper label::before {
-  content: "";
-  height: 20px;
-  width: 20px;
-  background: rgba(255, 255, 255, 0.75);
-  border: 1px solid var(--secondary-color)76;
-  position: absolute;
-  top: -4px;
-  left: -30px;
-}
-.radio-wrapper label::before {
-  border-radius: 50%;
-}
-.radio-wrapper label::after {
-  content: "";
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: var(--secondary-color)e76;
-  position: absolute;
-  left: -29px;
-  top: -3px;
-  background-image: radial-gradient(circle, #39a6b2, #024e76);
+
 }
 
-.checkbox-wrapper label::after {
-  content: "";
-  height: 6px;
-  width: 14px;
-  border-left: 2px solid var(--secondary-color)6;
-  border-bottom: 2px solid var(--secondary-color);
-  position: absolute;
-  left: -26px;
-  top: 1px;
-  transform: rotate(-58deg);
-}
-.checkbox-wrapper input+label::after,
-.radio-wrapper input+label::after {
-  content: none;
-}
 
-.checkbox-wrapper input:checked+label::after,
-.radio-wrapper input:checked+label::after {
-  content: "";
-}
 /* HERO STYLES END */
 
 
