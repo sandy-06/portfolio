@@ -8,7 +8,7 @@
   }
  * {
    box-sizing: border-box;
-   margin: auto;
+   
    padding: 0;
 }
 
@@ -20,20 +20,22 @@ body {
 
 /* HEADER / NAV BAR STYLES START */
 
-header
 
 
 
-.
+
+
 header nav {
   margin: 7px 0;
+  height: 100px;
+  width: 100%;
 }
 
 header nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  align-items: right;
+  text-align: right;
   list-style: none;
 }
 
@@ -44,6 +46,7 @@ header nav ul li {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   align-items: flex-end;
   flex-direction: column;
+  color:#0d1718;
 }
 
 
@@ -93,9 +96,10 @@ hero  h1 {
   justify-content: center;
   font-weight: bold;
   margin: 0;
-  font-size: 36px;
+  font-size: 100px;
   color: rgb(17, 17, 16);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 100px;
 }
 
 #cat {
@@ -106,6 +110,7 @@ hero  h1 {
 
 #cat div {
   width: 100%;
+  height: 100px;
 }
 /* HERO STYLES END */
 
