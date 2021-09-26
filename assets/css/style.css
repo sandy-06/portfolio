@@ -94,7 +94,7 @@ div {
 
 /* HERO STYLES START */
 .hero {
-  background-image: url("header-photo1.jpg");
+  background-image: url("../images/header-photo1.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
