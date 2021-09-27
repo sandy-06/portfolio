@@ -77,59 +77,48 @@ div {
   background-position: 100%;
   height: 600px;
   background-color: aliceblue;
-}
-
-hero h1 {
-  justify-content: center;
-  font-weight: bold;
-  margin: 0;
-  font-size: 100px;
-  color: rgb(17, 17, 16);
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  height: 100px;
-}
-
-#cat {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#cat div {
-  width: 100%;
-  height: 100px;
-}
-/* HERO STYLES END */
-/*project styles*/
-.project{
-  background-image: url(../images/Screenshot\ 2021-09-25\ 192505.jpg);
-  max-width: 600px;
-  max-height: 1000px;
-}
 
 .project .otherProjects {
   display: inline-flex;
-  flex-direction: column;
+  width: 50% ;
+  height:700;
 }
-.runBuddy {
-  background-image:  url("../images/run-buddy.PNG");
-  background-size: cover;
-  max-width: 300px;
-  max-height: 500px;
-}
-
 .otherProjects {
+  display: flex;
+  justify-content: space-between;
   height: fit-content;
   align-items: flex-end;
   flex-shrink: unset;
   box-sizing: border-box;
-}
-.flex-container {
-  display: flex;
+  width: 50%;
+  height: 350px;
   flex-wrap: wrap;
-  flex-shrink: unset;
-  flex-direction: column;
 }
+
+#runBuddy {
+  background-image:  url("../images/run-buddy.PNG");
+  background-size: cover;
+ 
+}
+#agility {
+  background-image: url("../images/Screenshot\ 2021-09-25\ 163900.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#growing {
+  background-image: url("../images/Screenshot\ 2021-09-26\ 123544.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#beautiful {
+  background-image: url("../images/Screenshot\ 2021-09-26\ 123643.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
 /* REACH OUT STYLES START */
 #credits {
   font-size: medium;
