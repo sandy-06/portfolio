@@ -78,6 +78,14 @@ div {
   height: 600px;
   background-color: aliceblue;
 }
+.project {
+  background-image: url("../images/Screenshot\ 2021-09-25\ 192505.jpg") ;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+  background-color: aliceblue;
+}
 .project .otherProjects {
   display: inline-flex;
   width: 50% ;
