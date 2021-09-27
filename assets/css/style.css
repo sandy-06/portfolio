@@ -42,27 +42,13 @@ header nav ul li {
 
 /* HEADER / NAVBAR STYLES END */
 
-/* FOOTER STYLES START */
-footer {
-  background: var(--primary-color);
-  padding: 5px 5px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 100%;
-}
 
-footer h4 {
-  color: var(--secondary-color);
-  font-size: 25px;
-  margin: 0;
-}
 
 /* END FOOTER STYLES */
 
 /* STYLE ALL SECTION TAGS */
 div {
-  padding: 10px;
+  padding: 5px;
 }
 
 /* HERO STYLES START */
@@ -90,21 +76,21 @@ div {
 
 .otherProjects {
   display: flex;
-  display: inline-block;
   justify-content: space-between;
-  align-items: flex-end;
-  flex-shrink: unset;
-  box-sizing: border-box;
-  width: 50%;
-  height: 800px;
+  
+}
+.image {
+  display:flex;
+  justify-content: space-between;
   flex-wrap: wrap;
+
 }
 
 #runBuddy {
   background-image: url("../images/run-buddy.PNG");
   background-size: cover;
   height: 400px;
-  width: 100%;
+  width: 49%;
   background-color: aliceblue;
   display: flex;
   flex-wrap: wrap;
@@ -113,7 +99,7 @@ div {
   background-image: url("../images/Screenshot\ 2021-09-25\ 163900.jpg");
   background-size: cover;
   height: 400px;
-  width: 100%;
+  width: 49%;
   background-color: aliceblue;
   display: flex;
   flex-wrap: wrap;
@@ -123,7 +109,7 @@ div {
   background-image: url("../images/Screenshot\ 2021-09-26\ 123544.jpg");
   background-size: cover;
   height: 400px;
-  width: 100%;
+  width: 49%;
   background-color: aliceblue;
   display: flex;
   flex-wrap: wrap;
@@ -133,7 +119,7 @@ div {
   background-image: url("../images/Screenshot\ 2021-09-26\ 123643.jpg");
   background-size: cover;
   height: 400px;
-  width: 100%;
+  width: 49%;
   background-color: aliceblue;
   display: flex;
   flex-wrap: wrap;
@@ -152,6 +138,21 @@ div {
 }
 
 /* REACH OUT STYLES END */
+/* FOOTER STYLES START */
+footer {
+  background: var(--primary-color);
+  padding: 5px 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+footer h4 {
+  color: var(--secondary-color);
+  font-size: 25px;
+  margin: 0;
+}
 
 /* UTILITIES */
 .text-left {
@@ -189,28 +190,12 @@ div {
     font-size: 20px;
   }
 
-  footer h2,
+  footer h4,
   footer div {
     text-align: center;
     width: 100%;
   }
-
-  .hero-cta,
-  .hero-form {
-    width: 100%;
-  }
-
-  .hero-cta {
-    text-align: center;
-  }
-
-  .section-title {
-    width: 80%;
-  }
-
-  .trainer {
-    flex: 0 70%;
-  }
+  
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -219,61 +204,9 @@ div {
     padding: 30px 15px;
   }
 
-  .step h3 {
-    flex: 1 100%;
-    text-align: center;
-  }
-
-  .step-info {
-    flex: 2 100%;
-    text-align: center;
-    justify-content: center;
-  }
-
-  .step-img {
-    flex: 0 32%;
-    margin-right: 0;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
-  .step-text {
-    flex: 100%;
-  }
-
-  .trainer-bio h3,
-  .trainer-bio h4 {
-    display: block;
-  }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-  .hero-form button {
-    width: 100%;
-  }
-
-  .section-title {
-    width: 95%;
-  }
-
-  .intro p {
-    width: 100%;
-  }
-
-  .trainer {
-    flex: 0 100%;
-  }
-
-  .contact-info {
-    text-align: center;
-  }
-
-  .contact-info > * {
-    flex: 0 100%;
-  }
-
-  .contact-form {
-    order: 3;
-  }
+  
 }
