@@ -76,13 +76,16 @@ div {
 
 .otherProjects {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  
+  
   
 }
 .image {
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
+  padding: 10px;
 
 }
 
@@ -90,7 +93,7 @@ div {
   background-image: url("../images/run-buddy.PNG");
   background-size: cover;
   height: 400px;
-  width: 49%;
+  width:48%;
   background-color: aliceblue;
   display: flex;
   flex-wrap: wrap;
@@ -99,7 +102,7 @@ div {
   background-image: url("../images/Screenshot\ 2021-09-25\ 163900.jpg");
   background-size: cover;
   height: 400px;
-  width: 49%;
+  width: 48%;
   background-color: aliceblue;
   display: flex;
   flex-wrap: wrap;
@@ -109,7 +112,7 @@ div {
   background-image: url("../images/Screenshot\ 2021-09-26\ 123544.jpg");
   background-size: cover;
   height: 400px;
-  width: 49%;
+  width: 48%;
   background-color: aliceblue;
   display: flex;
   flex-wrap: wrap;
@@ -119,7 +122,7 @@ div {
   background-image: url("../images/Screenshot\ 2021-09-26\ 123643.jpg");
   background-size: cover;
   height: 400px;
-  width: 49%;
+  width: 48%;
   background-color: aliceblue;
   display: flex;
   flex-wrap: wrap;
