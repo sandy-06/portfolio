@@ -79,53 +79,65 @@ div {
   background-color: aliceblue;
 }
 .project {
-  background-image: url("../images/Screenshot\ 2021-09-25\ 192505.jpg") ;
+  background-image: url("../images/Screenshot\ 2021-09-25\ 192505.jpg");
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
   height: 600px;
   background-color: aliceblue;
 }
-.project .otherProjects {
-  display: inline-flex;
-  width: 50% ;
-  height:700;
-}
+
+
 .otherProjects {
   display: flex;
+  display: inline-block;
   justify-content: space-between;
-  height: fit-content;
   align-items: flex-end;
   flex-shrink: unset;
   box-sizing: border-box;
   width: 50%;
-  height: 350px;
+  height: 800px;
   flex-wrap: wrap;
 }
 
 #runBuddy {
-  background-image:  url("../images/run-buddy.PNG");
+  background-image: url("../images/run-buddy.PNG");
   background-size: cover;
- 
+  height: 400px;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
 }
 #agility {
   background-image: url("../images/Screenshot\ 2021-09-25\ 163900.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #growing {
   background-image: url("../images/Screenshot\ 2021-09-26\ 123544.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #beautiful {
   background-image: url("../images/Screenshot\ 2021-09-26\ 123643.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
 }
-
 
 /* REACH OUT STYLES START */
 #credits {
