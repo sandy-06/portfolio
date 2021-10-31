@@ -1,11 +1,11 @@
 ��# portfolio
 This is my growing and changing portfolio with my increasing knowledge and projects to show. It will be under constant revision as my skills grow.
-
+deployed link;https://sandy-06.github.io/portfolio/
 Installation:
 Just hit the link. Really nothing more to do.
 
 Useage:
-[alt text](sandra sanders Portfolio.jpg-photos
+![alt text](sandra sanders Portfolio.jpg-photos
 
 Credit:
 I got help from David Lovett and Jennifer Lucas
