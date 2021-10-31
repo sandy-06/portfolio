@@ -64,8 +64,8 @@ div {
   height: 600px;
   background-color: aliceblue;
 }
-.project {
-  background-image: url("../images/Screenshot\ 2021-09-25\ 192505.jpg");
+#main {
+  background-image: url("../images/Screenshot\ 2021-10-27\ 142559.png");
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
@@ -109,7 +109,7 @@ div {
 }
 
 #growing {
-  background-image: url("../images/Screenshot\ 2021-09-26\ 123544.jpg");
+  background-image: url("../images/Screenshot\ 2021-09-25\ 192505.jpg");
   background-size: cover;
   height: 400px;
   width: 48%;
