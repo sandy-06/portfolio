@@ -1,6 +1,7 @@
 ��# portfolio
 This is my growing and changing portfolio with my increasing knowledge and projects to show. It will be under constant revision as my skills grow.
 deployed link;https://sandy-06.github.io/portfolio/
+
 Installation:
 Just hit the link. Really nothing more to do.
 
@@ -35,4 +36,5 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <https://unlicense.org>
+
 Created by Sandra Sanders
