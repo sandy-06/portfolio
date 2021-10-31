@@ -1,5 +1,5 @@
 ��# portfolio
-This project was to start my first Portfolio of my work. I only had 2 actuall projects to put in but I used placeholders for some other. I was a great learning exercise using html and css with no starter code.
+This is my growing and changing portfolio with my increasing knowledge and projects to show. It will be under constant revision as my skills grow.
 
 Installation:
 Just hit the link. Really nothing more to do.
@@ -35,3 +35,4 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <https://unlicense.org>
+Created by Sandra Sanders
